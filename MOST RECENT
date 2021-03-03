@@ -1,0 +1,169 @@
+math.randomseed(os.time())
+
+local layer = "Space Dirt"
+
+print("You are mining in the "..layer.." layer.")
+
+local function git()
+    if math.random(1,1000000) == 420 then
+        return "TROLLY agsper crystal"
+    end
+    if layer == "Space Dust" then
+        if math.random(1,900) == 2 then
+            return "Y"
+        elseif math.random(1,200) == 2 then
+            return "Frost Gem"
+        elseif math.random(1,735) == 2 then
+            return "Akabe Crystal"
+        elseif math.random(1,1250) == 2 then
+            return "Agsper Crystal"
+        elseif math.random(1,4000) == 2 then
+            return "Astatine"
+        elseif math.random(1,4300) == 2 then
+            return "Tevverial"
+        end
+    elseif layer == "Space Rock" then
+        if math.random(1,200) == 2 then
+            return "Frost Gem"
+        end
+    elseif layer == "Space Marble" then
+        if math.random(1,150) == 2 then
+            return "Water Gem"
+        elseif math.random(1,300) == 2 then
+            return "Ethereal Gem"
+        elseif math.random(1,17650) == 2 then
+            return "Troylezian"
+        end
+    elseif layer == "Space Obsidian" then
+        if math.random(1,125) == 2 then
+            return "Fire Gem"
+        elseif math.random(1,150) == 2 then
+            return "Water Gem"
+        elseif math.random(1,200) == 2 then
+            return "Frost Gem"
+        elseif math.random(1,735) == 2 then
+            return "Akabe Crystal" 
+        elseif math.random(1,1250) == 2 then
+            return "Agsper Crystal"
+        elseif math.random(1,4300) == 2 then
+            return "Tevverial"
+        elseif math.random(1,4300) == 2 then
+            return "Ultra Danilium"
+        elseif math.random(1,17450) == 2 then
+            return "Sinistral"
+        end
+    elseif layer == "Core" then
+        if math.random(1,125) == 2 then
+            return "Fire Gem"
+        elseif math.random(1,150) == 2 then
+            return "Magma Gem"
+        elseif math.random(1,650) == 2 then
+            return "Solar Crystal"
+        elseif math.random(1,850) == 2 then
+            return "Blaze Crystal"
+        elseif math.random(1,4700) == 2 then
+            return "Cygni"
+        elseif math.random(1,17000) == 2 then
+            return "X-Flare"
+        end
+    elseif layer == "Outer Space" then
+        if math.random(1,175) == 2 then
+            return "Celestial Gem"
+        elseif math.random(1,225) == 2 then
+            return "Galactic Gem"
+        elseif math.random(1,650) == 2 then
+            return "Solar Crystal"
+        elseif math.random(1,850) == 2 then
+            return "Nebula Crystal"
+        elseif math.random(1,1000) == 2 then
+            return "Galaxy Crystal"
+        elseif math.random(1,4650) == 2 then
+            return "SGR-A"
+        elseif math.random(1,19500) == 2 then
+            return "Vela Pulsar"
+        end
+    elseif layer == "Darkmatter" then
+        if math.random(1,187) == 2 then
+            return "Luminous Gem"
+        elseif math.random(1,750) == 2 then
+            return "Nemesis Crystal"
+        elseif math.random(1,900) == 2 then
+            return "Shadow Crystal"
+        elseif math.random(1,1350) == 2 then
+            return "Vortex Crystal"
+        elseif math.random(1,4800) == 2 then
+            return "Cryptical"
+        elseif math.random(1,15000) == 2 then
+            return "Shadow Cherkasyl"
+        elseif math.random(1,math.random(15000,20000)) == 2 then
+            return "Shadow-X"
+        end
+    elseif layer == "Antimatter" then
+        if math.random(1,160) == 2 then
+            return "Spectral Gem"
+        elseif math.random(1,750) == 2 then
+            return "Nemesis Crystal"
+        elseif math.random(1,1100) == 2 then
+            return "Anti-Shadow Crystal"
+        elseif math.random(1,4225) == 2 then
+            return "Cherkasyl"
+        elseif math.random(1,4500) == 2 then
+            return "Directriol"
+        elseif math.random(1,15500) == 2 then
+            return "God Directriol"
+        end
+    elseif layer == "Void" then
+        if math.random(1,175) == 2 then
+            return "Abyssal Gem"
+        elseif math.random(1,900) == 2 then
+            return "Corrupt Crystal"
+        elseif math.random(1,16000) == 2 then
+            return "Corrupt Agsper Crystal"
+        elseif math.random(1,18750) == 2 then
+            return "Prisma"
+        end
+    elseif layer == "Legacy" then
+        if math.random(1,250) == 2 then
+            return "Fire Crystal"
+        elseif math.random(1,400) == 2 then
+            return "Joey Crystal"
+        elseif math.random(1,750) == 2 then
+            return "Legacy Solar Crystal"
+        elseif math.random(1,900) == 2 then
+            return "Legacy Nebula Crystal"
+        elseif math.random(1,1100) == 2 then
+            return "Legacy Agsper Crystal"
+        elseif math.random(1,1350) == 2 then
+            return "Cyclone Crystal"
+        elseif math.random(1,3250) == 2 then
+            return "Nova Crystal"
+        elseif math.random(1,3500) == 2 then
+            return "X2 Crystal"
+        elseif math.random(1,20000) == 2 then
+            return "Ψ"
+        end
+    elseif layer == "Space Dirt" then
+        if math.random(1,55) == 2 then
+            return "Vector Gem"
+        elseif math.random(1,125) == 2 then
+            return "Rainbow Crystal"
+        elseif math.random(1,350) == 2 then
+            return "Oceano"
+        elseif math.random(1,1000) == 2 then
+            return "Astrilium"
+        end
+    end
+    return false
+end
+
+local vv = 500
+if layer == "Space Dirt" then
+    vv = 50
+end
+
+for i = 1,vv do
+    local ore = git()
+    if ore then
+        print(ore)
+    end
+end
